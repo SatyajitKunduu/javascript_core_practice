@@ -2,6 +2,7 @@
 //problem:01
 //declare a variable "age" and assign your age.print
 //👉adult if age=18 otherwise minor.
+
 let age=18;
 
 if (age>=18){
@@ -12,6 +13,7 @@ if (age>=18){
 
 //problem:02
 //👉write a number to check if a number is even or odd.
+
 let num=3;
 if(num%2===0){
     console.log("even")
