@@ -214,4 +214,3 @@ if(number1===number2){
 }else{
     console.log("number2 is bigger");
 };
-
