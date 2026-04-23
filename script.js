@@ -23,6 +23,7 @@ if(num%2===0){
 
 //problem:03
 //👉declare two numbers and print the greater one.
+
 let num1=23;
 let num2=33;
 if (num1>num2){
@@ -119,4 +120,98 @@ else if(Day===5)console.log("friday");
 else if(Day===6)console.log("saturday");
 else if(Day===7)console.log("sunday")
 else console.log("invalid");
+
+//🔵CHALLENGING PROBLEMS
+//problem:11
+//👉check if a number is a multiple of both 3 and 5.
+
+let num3=15;
+if(num3%3===0,num3%5===0){
+    console.log("fizzbuzz");
+}else if(num3%3===0){
+    console.log("fizz");
+}else if(num3%5===0){
+    console.log("buzz");
+}else{
+    console.log(num);
+}
+
+//problem:12
+//👉create a grading system: 90+ --> A. 80-90 --> B. 70-79 --> C. below 70 --> fail.
+
+let marks=90;
+if(marks>=90){
+    console.log("A");
+}else if(marks<=90 || marks>=80){
+    console.log("B");
+}else if(marks<=79 || marks>=70){
+    console.log("C");
+}else{
+    console.log("fail");
+};
+
+//problem:13
+//👉check if a number is a 3-digit number.
+
+let digit=222;
+if(digit>99 && digit<=999){
+    console.log("three digit");
+}else{
+    console.log("not a three digit number");
+};
+
+//problem:14
+//👉write a program to find absolute value of a number.[without using math.abs()]
+
+let value=-10;
+if(value<0){
+    console.log("-value");
+}else{
+    console.log("value");
+};
+
+//problem:15
+//👉take three sides of triangle and check:valid triangle or not.
+
+let p=3,b=4,h=5;
+if(p+b>h && b+h>p && p+h>b){
+    console.log("triangle");
+}else{
+    console.log("not a triangle");
+};
+
+//🌝🔴 important for interview
+//problem:16
+//👉write a login system:username->"admin" and password->"1234" , print "login suuccesful" or "invalid credentials"
+
+let username="admin";
+let password=1234;
+if(username==="admin" && password===1234){
+    console.log("login successful");
+}else{
+    console.log("invalid credentials");
+};
+
+//problem:17
+//👉check if a number is within a range (10-50).
+
+let number=33;
+if(number>=10 && number<=50){
+    console.log("valid number");
+}else{
+    console.log("invalid number");
+};
+
+//problem:18
+//👉compare two numbers and print: 1. equal or 2. which one is bigger.
+
+let number1=33;
+let number2=34;
+if(number1===number2){
+    console.log("equal");
+}else if(number1>number2){
+    console.log("number1 is bigger");
+}else{
+    console.log("number2 is bigger");
+};
 
