@@ -30,3 +30,19 @@ javascript practice questions and solutions(make sure first try yourself and the
 16. write a login system:username->"admin" and password->"1234" , print "login suuccesful" or "invalid credentials".
 17. check if a number is within a range (10-50).
 18. compare two numbers and print: 1. equal or 2. which one is bigger.
+
+
+<br>QUESTIONS ABOUT LOOP AND STRING
+<BR>🟢BASIC LEVEL:
+
+1. PRINT NUMBERS FROM 1 TO 10 USING LOOP.
+2. PRINT ALL EVEN NUMBERS FROM 1 TO 50.
+3. REVERSE AS STRING: INPUT->"HELLO" , OUTPUT->"OLLEH"
+4. COUNT THE NUMBER OF CHARACTERS IN A STRING (WITHOUT USING .LENGTH)
+5. COUNT HOW MANY VOWELS ARE IN A STRING.
+
+<BR>🟡INTERMIDIATE LEVEL:
+
+6. CHECK STRING IS A PALINDROME.
+7. PRINT THE FACTORIAL OF A NUMBER : 05.
+8. FIND THE LARGEST NUMBER IN THE ARRAY : [10,45,2,99].
