@@ -214,3 +214,31 @@ if(number1===number2){
 }else{
     console.log("number2 is bigger");
 };
+
+//🌝QUESTIONS OF LOOPS AND STRING.
+//🟢BASIC LEVEL
+//PROBLEM:01
+//👉PRINT NUMBERS FROM 1 TO 10 USING LOOP.
+
+for(let i=0;i<=10;i++){
+    console.log(i);
+}
+
+//PROBLEM:02
+//👉PRINT ALL EVEN NUMBERS FROM 1 TO 50.
+
+for(let even=0;even<=50;even++){
+    if(even%2===0){
+        console.log(even);
+    }
+}
+
+//PROBLEM:03
+//👉REVERSE AS STRING: INPUT->"HELLO" , OUTPUT->"OLLEH"
+
+let str="hello";
+let reversed="";
+for(let i=str.length - 1;i>=0;i--){
+    reversed += str[i];
+}
+console.log(reversed);
