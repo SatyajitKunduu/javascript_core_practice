@@ -242,3 +242,99 @@ for(let i=str.length - 1;i>=0;i--){
     reversed += str[i];
 }
 console.log(reversed);
+
+//PROBLEM:04
+//👉COUNT THE NUMBER OF CHARACTERS IN A STRING (WITHOUT USING .LENGTH)
+
+let str01 = "hello";
+let count01 = 0;
+for(let char of str01){
+    count++;
+}
+console.log(count);
+
+//PROBLEM:05
+//👉COUNT HOW MANY VOWELS ARE IN A STRING.
+
+let str02 = "satyajit";
+let count02 = 0;
+for(let char of str02){
+    if("aeiou".includes(char)){
+        count++;
+    }
+}
+console.log(count);
+
+//🟡INTERMIDIATE LEVEL
+//PROBLEM:06
+//👉CHECK STRING IS A PALINDROME.
+
+let str03 = "madam"
+let reversed ="";
+for(let p =str03.length - 1;p>=0;p--){
+    reversed += str[p];
+}
+console.log(str === reversed);
+
+//PROBLEM:07
+//👉PRINT THE FACTORIAL OF A NUMBER : 05.
+
+let numb = 5;
+let fact = 0;
+for(let k=1;k<=n;k++){
+    fact *= k;
+}
+console.log(fact);
+
+//PROBLEM:08
+//👉FIND THE LARGEST NUMBER IN THE ARRAY : [10,45,2,99]
+
+let arr = [10,45,2,99];
+let max = arr[0];
+for(let j=1;j<arr.length;j++){
+    if(arr[j]>max){
+        max=arr[j];
+    }
+}
+console.log(max);
+
+//PROBLEM:09
+//👉REMOVE ALL SPACES FROM A STRING: HELLO WORLD -->> HELLOWORLD.
+
+let str04 = "hello world";
+for(let char of str04){
+    if(char !== " "){
+        result += char;
+    }
+}
+console.log(result);
+
+//PROBLEM:10
+//👉COUNT HOW MANY TIMES A CHARACTER APPEARS.-->BANANA-> "A"->3
+
+let str05 = "banana";
+let target = "a";
+let count03 = 0;
+for(let char in str05){
+    if(target == char){
+        count++;
+    }
+}
+console.log(count);
+
+//🔵CHALLENGING PROBLEMS:
+//PROBLEM:11
+//👉PRINT THIS PATTERN:
+//*
+//** 
+//***
+//****
+
+for(let g=1;g<=4;g++){
+    let row = "";
+    for(z=1;z<=i;z++){
+        row+="*";
+
+    }
+    console.log(row);
+}
